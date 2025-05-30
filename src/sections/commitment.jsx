@@ -53,7 +53,7 @@ export default function CommitmentSection() {
             <p>
               "By choosing our coffee, you're not just enjoying great flavor —
               you're also supporting local farmers and sustainable agriculture.
-              We believe great coffee should do good."
+              We believe great coffee should do good emang."
             </p>
           </div>
         </div>
