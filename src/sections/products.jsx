@@ -1,9 +1,9 @@
-import { ChefHat, Coffee } from "lucide-react";
+import { ChefHat } from "lucide-react";
 
 export default function ProductsSection() {
   return (
     <section
-      id="Benefit Section"
+      id="Product"
       className="p-10 max-w-screen-xl mx-auto space-y-8 my-28"
     >
       <div className="flex flex-col items-center gap-2">
@@ -11,8 +11,8 @@ export default function ProductsSection() {
           Our Products
         </div>
         <div className="flex items-center gap-2">
-          <ChefHat className="text-amber-800" />
-          <h2 className="text-3xl font-bold">Featured Coffee Selections</h2>
+          <ChefHat className="text-red-800" />
+          <h2 className="text-3xl font-bold">Featured Our Menu Selections</h2>
         </div>
         <p className="text-base text-gray-600">
           Explore our premium coffee varieties from different regions of
@@ -38,7 +38,7 @@ export default function ProductsSection() {
               and a subtle spice finish.
             </p>
             <div className="card-actions justify-end">
-              <button className="btn bg-red-800 text-white mt-2">
+              <button className="btn bg-red-800  hover:bg-white hover:text-red-800 text-white mt-2">
                 Buy Now
               </button>
             </div>
@@ -60,7 +60,7 @@ export default function ProductsSection() {
               and a clean, syrupy body.
             </p>
             <div className="card-actions justify-end">
-              <button className="btn bg-amber-800 text-white mt-2">
+              <button className="btn bg-red-800  hover:bg-white hover:text-red-800 text-white mt-2">
                 Buy Now
               </button>
             </div>
@@ -76,13 +76,13 @@ export default function ProductsSection() {
           </figure>
           <div className="card-body">
             <h2 className="card-title">Ayam Opor</h2>
-            <h2 className="card-title text-amber-800 text-sm">East Java</h2>
+            <h2 className="card-title text-red-800 text-sm">East Java</h2>
             <p>
               Strong and bold with woody notes, a hint of dark chocolate, and a
               smooth, lingering finish.
             </p>
             <div className="card-actions justify-end">
-              <button className="btn bg-amber-800 text-white mt-2">
+              <button className="btn bg-red-800 hover:bg-white hover:text-red-800 text-white mt-2">
                 Buy Now
               </button>
             </div>

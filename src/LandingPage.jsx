@@ -9,22 +9,20 @@ import TestimonialSection from "./sections/testimoni";
 
 function LandingPage() {
   return (
-    <>
+    <div>
       <Navbar />
-      <div>
-        <HeroSection />
-        <div className="bg-red-200 ">
-          <AboutSection />
-        </div>
-        <CommitmentSection />
-        <div className="bg-red-200">
-          <ProductsSection />
-        </div>
-        <TestimonialSection />
-        <ContactSection />
-        <Footer />
+      <HeroSection />
+      <div className="bg-red-200 ">
+        <AboutSection />
       </div>
-    </>
+      <CommitmentSection />
+      <div className="bg-red-200">
+        <ProductsSection />
+      </div>
+      <TestimonialSection />
+      <ContactSection />
+      <Footer />
+    </div>
   );
 }
 

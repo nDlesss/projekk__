@@ -12,7 +12,7 @@ export default function HeroSection() {
             <a href="#contact">Daftar sekarang</a>
           </button>
           <button className="btn bg-white text-amber-800 hover:bg-red-400 hover:text-white border-none">
-            Learn More
+            <a href="#About Section">Learn More</a>
           </button>
         </div>
       </div>

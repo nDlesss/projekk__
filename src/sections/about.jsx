@@ -21,7 +21,12 @@ export default function AboutSection() {
             rasa hanya di tempat terbaik pilihan Anda."
           </p>
           <button className="btn bg-red-800 text-white border-none">
-            See Our Products
+            <a
+              href="
+            #Product"
+            >
+              See Our Products
+            </a>
           </button>
         </div>
         <div>
@@ -32,7 +37,7 @@ export default function AboutSection() {
                 className="shadow-lg rounded-lg w-[600px] h-[400px] object-cover mx-auto"
               />
               <div className="absolute right-5 top-1/2 flex -translate-y-1/2  ">
-                <a href="#slide2" className="btn btn-circle">
+                <a href="#slide2" className="btn bg-red-500 text-white btn-circle">
                   ❯
                 </a>
               </div>
@@ -40,7 +45,7 @@ export default function AboutSection() {
             <div id="slide2" className="carousel-item relative w-full">
               <img src="/ayam1.jpg" />
               <div className="absolute left-5 top-1/2 flex -translate-y-1/2 ">
-                <a href="#slide1" className="btn btn-circle">
+                <a href="#slide1" className="btn bg-red-500 text-white btn-circle">
                   ❮
                 </a>
               </div>

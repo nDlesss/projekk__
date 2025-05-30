@@ -29,48 +29,15 @@ export default function Navbar() {
         </div>
         <a className="font-medium text-xl flex items-center gap-2">
           <ChefHat className="text-red-700" />
-          Aroma Sriwijaya
+          Cita Resto
         </a>
       </div>
-      <div className=" hidden md:dropdown dropdown-hover hover:cursor-pointer w-35 ">
+
+      <div className=" hidden md:dropdown dropdown-hover w-45">
         <div
           tabIndex={0}
           role="button"
-          className="btn hover:bg-red-500 hover:rounded-box hover:text-white m-1 "
-        >
-          <span className="hidden lg:inline ">Tentang Kami</span>
-        </div>
-        <ul
-          tabIndex={0}
-          className="menu dropdown-content bg-base-100 rounded-box z-1 w-52 p-2 shadow "
-        >
-          <li>
-            <a className="hover:bg-red-500 hover:rounded-box hover:text-white">
-              Beverages
-            </a>
-          </li>
-          <li>
-            <a className="hover:bg-red-500 hover:rounded-box hover:text-white">
-              Food
-            </a>
-          </li>
-          <li>
-            <a className="hover:bg-red-500 hover:rounded-box hover:text-white">
-              Drinks
-            </a>
-          </li>
-          <li>
-            <a className="hover:bg-red-500 hover:rounded-box hover:text-white">
-              Other
-            </a>
-          </li>
-        </ul>
-      </div>
-      <div className=" hidden md:dropdown dropdown-hover w-35">
-        <div
-          tabIndex={0}
-          role="button"
-          className="btn btn m-1 hover:bg-red-500 hover:rounded-box hover:text-white m-1"
+          className="btn m-1 hover:bg-red-500 hover:rounded-box hover:text-white"
         >
           <span className="hidden lg:inline">Kontak Kami</span>
         </div>
@@ -86,7 +53,7 @@ export default function Navbar() {
               Email
             </a>
           </li>
-          <li>
+          <li className="hover:bg-red-500 hover:rounded-box hover:text-white">
             <a>Phone</a>
           </li>
         </ul>
@@ -95,7 +62,7 @@ export default function Navbar() {
         <div
           tabIndex={0}
           role="button"
-          className="btn hover:bg-red-500 hover:rounded-box hover:text-white m-1 btn m-1 "
+          className="btn hover:bg-red-500 hover:rounded-box hover:text-white m-1 "
         >
           <span className="hidden lg:inline">Menu</span>
         </div>
@@ -129,7 +96,7 @@ export default function Navbar() {
         <div
           tabIndex={0}
           role="button"
-          className="btn hover:bg-red-500 hover:rounded-box hover:text-white m-1 btn m-1 "
+          className="btn hover:bg-red-500 hover:rounded-box hover:text-white m-1 w-30 "
         >
           <span className="hidden lg:inline">Tentang Kami</span>
         </div>
