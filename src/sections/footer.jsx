@@ -1,11 +1,11 @@
-import { Coffee } from "lucide-react";
+import { ChefHat, Coffee } from "lucide-react";
 
 export default function Footer() {
   return (
-    <footer className="footer sm:footer-horizontal bg-amber-900 text-white items-center p-4">
+    <footer className="footer sm:footer-horizontal bg-red-900 text-white items-center p-4">
       <aside className="grid-flow-col items-center">
-        <Coffee />
-        <p>Copyright Aroma Sriwijaya © 2025 - All right reserved</p>
+        <ChefHat />
+        <p>Cita Restoran © 2025 - All right reserved</p>
       </aside>
       <nav className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
         <a>

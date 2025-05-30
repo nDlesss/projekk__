@@ -1,4 +1,4 @@
-import { Coffee } from "lucide-react";
+import { ChefHat, Coffee } from "lucide-react";
 
 export default function ProductsSection() {
   return (
@@ -7,11 +7,11 @@ export default function ProductsSection() {
       className="p-10 max-w-screen-xl mx-auto space-y-8 my-28"
     >
       <div className="flex flex-col items-center gap-2">
-        <div className="bg-amber-100 text-amber-800 px-2 py-1 rounded-lg">
+        <div className="bg-amber-100 text-red-500 px-2 py-1 rounded-lg">
           Our Products
         </div>
         <div className="flex items-center gap-2">
-          <Coffee className="text-amber-800" />
+          <ChefHat className="text-amber-800" />
           <h2 className="text-3xl font-bold">Featured Coffee Selections</h2>
         </div>
         <p className="text-base text-gray-600">
@@ -23,14 +23,14 @@ export default function ProductsSection() {
         <div className="card bg-base-100 shadow-sm transform hover:scale-104 transition-transform duration-300">
           <div>
             <img
-              src="/public/Mandheling-Coffee-Beans.jpg"
+              src="/nasgor.jpg"
               alt="Shoes "
               className="relative shadow-2xl rounded-2xl w-full h-[255px]"
             />
           </div>
           <div className="card-body">
-            <h2 className="card-title">Sumatra Mandheling</h2>
-            <h2 className="card-title text-amber-800 text-sm">
+            <h2 className="card-title">Nasgor Spesial</h2>
+            <h2 className="card-title text-red-800 text-sm">
               Aceh, North Sumatra
             </h2>
             <p>
@@ -38,7 +38,7 @@ export default function ProductsSection() {
               and a subtle spice finish.
             </p>
             <div className="card-actions justify-end">
-              <button className="btn bg-amber-800 text-white mt-2">
+              <button className="btn bg-red-800 text-white mt-2">
                 Buy Now
               </button>
             </div>
@@ -47,16 +47,14 @@ export default function ProductsSection() {
         <div className="card bg-base-100 shadow-sm transform hover:scale-104 transition-transform duration-300">
           <figure>
             <img
-              src="/kopi.jpg"
+              src="/ayam3.jpg"
               alt="Shoes"
               className="relative shadow-2xl rounded-2xl w-full h-auto"
             />
           </figure>
           <div className="card-body">
-            <h2 className="card-title">Toraja Kalosi</h2>
-            <h2 className="card-title text-amber-800 text-sm">
-              South Sulawesi
-            </h2>
+            <h2 className="card-title">Ayam Spesial</h2>
+            <h2 className="card-title text-red-800 text-sm">South Sulawesi</h2>
             <p>
               Complex and well-balanced with notes of dark chocolate, spices,
               and a clean, syrupy body.
@@ -71,13 +69,13 @@ export default function ProductsSection() {
         <div className="card bg-base-100 shadow-sm transform hover:scale-104 transition-transform duration-300">
           <figure>
             <img
-              src="/robusta.png"
+              src="/ayam2.jpg"
               alt="Shoes"
               className="h-[255px] relative shadow-2xl rounded-2xl w-full"
             />
           </figure>
           <div className="card-body">
-            <h2 className="card-title">Java Robusta</h2>
+            <h2 className="card-title">Ayam Opor</h2>
             <h2 className="card-title text-amber-800 text-sm">East Java</h2>
             <p>
               Strong and bold with woody notes, a hint of dark chocolate, and a
